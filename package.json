@@ -1,0 +1,19 @@
+{
+  "name": "xcas_blog",
+  "version": "1.0.0",
+  "description": "使用了源码之家发布的免费博客模板\r 链接：\r http://www.mycodes.net/153/8600.htm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojunwen/xcasBlog.git"
+  },
+  "author": "xcas121",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojunwen/xcasBlog/issues"
+  },
+  "homepage": "https://github.com/mojunwen/xcasBlog#readme"
+}
