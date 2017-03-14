@@ -33,7 +33,7 @@
                                 <a href="blog.html">博　客</a>
                             </li>
                             <li class="active">
-                                <a href="contact.html">发布文章</a>
+                                <a href="contact.html">联系我</a>
                             </li>
                             <li class="last">
                                 <a href="#"><img class="social" src="img/icon/icon-facebook.png" alt="facebook"></a>
@@ -50,25 +50,30 @@
                             <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
                                 
                                 <!--input contact-->
-                                <h1>Contact</h1>
+                                <h1>联系我</h1>
                                 <h1 class="spacer">___</h1>
-                                <p>Utque aegrum corpus quassari etiam levibus solet offensis, ita animus eius angustus et tener, quicquid increpuisset, ad salutis suae dispendium existim.</p>
+                                <p>不妨发一封邮件说明来意可好！</p>
                                 <hr>
                                 <div class="panel panel-default contact btn-footer">
                                     <div class="panel-body">
-                                        <form role="form">
+                                        <form role="form" >
                                             <div class="form-group">
-                                                <label for="contactEmail">Email address</label>
+                                                <label for="contactEmail">你的邮箱</label>
                                                 <input type="email" class="form-control" id="contactEmail">
                                             </div>
                                             <div class="form-group">
-                                                <label for="contactMessage">Message</label>
+                                                <label for="contactEmail">邮件标题</label>
+                                                <input class="form-control" id="contactTitle">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="contactMessage">内　容：</label>
                                                 <textarea class="form-control" rows="10" id="contactMessage"></textarea>
                                             </div>
+                                            <button id="sendEmail" class="btn btn-grey btn-lg btn-block" type="button">发送</button>
                                         </form>
                                     </div>
                                     <div class="panel-footer">
-                                        <a class="btn btn-grey btn-lg btn-block">Send</a>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -105,7 +110,7 @@
                                         
                                         <!--social networks-->
                                         <div class="item-social text-center">
-                                            <a href="#"><img class="social" src="img/icon/icon-facebook.png" alt="Facebook"></a>
+                                            <a href="#"><img class="social" src="img/icon/icon-weixin-white.png" alt="微信"></a>
                                             <a href="#"><img class="social bis" src="img/icon/icon-twitter.png" alt="Twitter"></a>
                                             <a href="#"><img class="social" src="img/icon/icon-google.png" alt="Google plus"></a>
                                             <a href="#"><img class="social bis" src="img/icon/icon-linkedin.png" alt="Linkedin"></a>
@@ -130,5 +135,7 @@
         <script src="js/plugins/mixitup/jquery.mixitup.min.js"></script>
         
         <script src="js/main.js"></script>
+
+        <script src="js/contact.js"></script>
     </body>
 </html>
