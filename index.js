@@ -12,9 +12,15 @@ var connectConfig = {
     password: '123456',
     database: 'webapp'
 }
+var str_liancha = "SELECT * FROM reprintedarticle \
+INNER JOIN reprintedcategory \
+ON reprintedarticle.categoryId = reprintedcategory.id \
+WHERE reprintedarticle.categoryId = 1  \
+AND reprintedarticle.title LIKE '__1%'\
+"
+var str_edit = "UPDATE users SET name = 'kljlkjlkjlkjlk' ,`password`='12321132134534654'";
 
-
-
+var str_add = "INSERT INTO users (name, password) VALUES ('likun', '123456')"
 app.use(express.static('webapp'));
 
 app.use(bodyParser.json());// for parsing application/json
