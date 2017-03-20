@@ -4,3 +4,5 @@
 http://www.mycodes.net/153/8600.htm
 
 clone 后请于根目录打开 cmd 输入 node index.js
+
+后台页面：/admin/
