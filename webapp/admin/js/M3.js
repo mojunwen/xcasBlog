@@ -58,7 +58,7 @@ try{if(jQuery){}}catch(err){$('head').append('<script type="text/javascript" src
         $.ajax({
             type: type,
             async: false,
-            url : '/control/' + urlStr + '.do',
+            url : urlStr,
             data: nowData,
             datatype: 'json',
             contentType: contType,

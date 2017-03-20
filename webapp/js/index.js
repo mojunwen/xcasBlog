@@ -28,6 +28,8 @@ $(function(){
                 $(item).text(eval('val.' + $(item).attr('data-key')));
             });
             
+            $articlItem.addClass(val.categoryWord);
+
             $box.append($articlItem);
         });
     }
